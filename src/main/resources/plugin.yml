@@ -1,0 +1,13 @@
+name: UraniumArmor
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  uraniumarmor:
+    description: Gives a complete set of Uranium-234 armor.
+    usage: /uraniumarmor
+    permission: uraniumarmor.give
+permissions:
+  uraniumarmor.give:
+    description: Allows the player to receive Uranium-234 armor.
+    default: op
